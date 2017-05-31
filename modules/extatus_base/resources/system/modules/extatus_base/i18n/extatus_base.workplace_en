@@ -1,0 +1,33 @@
+
+desc.NadpisText=NadpisText
+fileicon.NadpisText=NadpisText
+
+desc.News=News kolonka
+fileicon.News=News
+
+desc.SliderRM=Slider with last matches
+fileicon.SliderRM=SliderRM
+
+desc.ImageAndText=Image and text
+fileicon.ImageAndText=ImageAndText
+
+desc.Social=Social network plugin
+fileicon.Social=Social
+
+fileicon.Milestones=Milestones
+desc.Milestones=Milestones
+
+desc.AchievementSlider=Slider with achievements 
+fileicon.AchievementSlider=AchievementSlider
+
+fileicon.EQtabulka=EQtabulka
+desc.EQtabulka=EQtabulka
+
+desc.CustomHTMLBambukator=Custom HTML Bambukator
+fileicon.CustomHTMLBambukator=CustomHTMLBambukator
+
+fileicon.HracHlavicka=HracHlavicka
+desc.HracHlavicka=Header pro stranku hrace
+
+fileicon.HracRooster=HracRooster
+desc.HracRooster=Hlavicka Hrace pro rooster
