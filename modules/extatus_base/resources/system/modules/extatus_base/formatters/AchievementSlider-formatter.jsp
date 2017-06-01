@@ -4,6 +4,26 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <cms:formatter var="content">
+	<!-- Carousel -->
+				<section class="carousel">
+					<div class="reel">
+					
+						<article>
+							<a href="#" class="image featured"><img src="<cms:link>%(link.weak:/system/modules/extatus_base/resources/images/pic01.jpg:1985bdda-458d-11e7-88d5-005056a55a2a)</cms:link>" alt="" /></a>
+							<header>
+								<h3><a href="#">Pulvinar sagittis congue</a></h3>
+							</header>
+							<p>Commodo id natoque malesuada sollicitudin elit suscipit magna.</p>
+						</article>
+					
+					</div>
+				</section>
+
+	
+	
+	
+	
+	
 	<div class="margin-bottom-30">
 		<div class="headline">
 			<h3 ${content.rdfa.Title}>${content.value.Title}</h3>
