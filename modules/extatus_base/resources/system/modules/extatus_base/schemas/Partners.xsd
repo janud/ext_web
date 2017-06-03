@@ -16,7 +16,6 @@
 			<xsd:element name="Text" type="OpenCmsHtml" />
 			<xsd:element name="Image" type="OpenCmsVfsFile" />
 			<xsd:element name="Link" type="OpenCmsVarLink" minOccurs="0" />
-			<xsd:element name="Sirka" type="OpenCmsString"/>
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
@@ -29,7 +28,6 @@
 			</mappings>
 			<defaults>
 				<default element="Title" value="Add a new title here" />
-				<default element="Text" value="Add your text" />
 				<default element="Text" value="Add your text" />
 			</defaults>
 			<layouts>

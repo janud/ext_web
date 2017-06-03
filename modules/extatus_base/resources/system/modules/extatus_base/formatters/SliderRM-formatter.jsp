@@ -23,7 +23,7 @@ pageContext.setAttribute("parsedJSON", data);
 							<header>
 								<h3><a href="#">Extatus vs. <%=data.getJSONObject(i).getString("souper")%></a></h3>
 							</header>
-							<p><%=data.getJSONObject(i).getString("souper")%> <br /><%=data.getJSONObject(i).getString("souper")%></p>
+							<p><%=data.getJSONObject(i).getString("akce")%> <br /><%=data.getJSONObject(i).getString("skore")%></p>
 						</article>
 					<%}%>
 					</div>
