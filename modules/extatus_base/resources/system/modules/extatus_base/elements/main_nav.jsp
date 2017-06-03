@@ -3,7 +3,7 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-	<a href="index.html"><img id="logo" src="<cms:link>%(link.weak:/system/modules/extatus_base/resources/images/extatus-logo.png:e7e47b91-458f-11e7-88d5-005056a55a2a)</cms:link>"></a>
+	<a href="<cms:link>%(link.weak:/index.html:a3df6117-4582-11e7-88d5-005056a55a2a)</cms:link>" id="Logo"><img id="logo" src="<cms:link>%(link.weak:/system/modules/extatus_base/resources/images/extatus-logo.png:e7e47b91-458f-11e7-88d5-005056a55a2a)</cms:link>"></a>
 	<nav id="nav">
 <c:set var="pathparts" value="${fn:split(cms.requestContext.folderUri, '/')}" />
 <c:set var="navStartLevel">${param.startlevel}</c:set>
@@ -16,6 +16,9 @@
 
 <cms:navigation type="forSite" resource="${navStartFolder}" startLevel="${navStartLevel}" endLevel="${navStartLevel + 3}" var="nav"/>
   <ul>
+
+<li><a href="#" class="icon fa-instagram"></a></li>
+<li><a href="#" class="icon fa-twitch"></a></li>
 
   <c:set var="oldLevel" value="" />
   <c:forEach items="${nav.items}" var="elem" varStatus="status">
@@ -75,5 +78,9 @@
 
   <c:forEach begin="${navStartLevel + 1}" end="${oldLevel}"></li></ul></c:forEach>
   <c:if test="${not empty nav.items}"></li></c:if>
-  </ul>
+
+<li><a href="#" class="icon fa-twitter"></a></li>
+<li><a href="#" class="icon fa-facebook"></a></li>
+
+</ul>
 </nav>

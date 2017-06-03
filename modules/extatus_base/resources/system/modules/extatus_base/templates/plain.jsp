@@ -12,24 +12,19 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="<cms:link>%(link.weak:/system/modules/extatus_base/resources/css/main.css:18d9c72d-458d-11e7-88d5-005056a55a2a)</cms:link>" />
 	</head>
-	<body class="homepage">
+	<body class="no-sidebar">
 		<div id="page-wrapper">
 
-			<!-- Header -->
-				<div id="header" class="titleh">
-					<!-- Nav -->
-					<cms:include file="%(link.weak:/system/modules/extatus_base/elements/main_nav.jsp:32ec15b5-4581-11e7-88d5-005056a55a2a)"/>
-				</div>
-				<cms:include file="%(link.weak:/system/modules/extatus_base/elements/partners.jsp:19974492-48af-11e7-afef-005056a55a2a)"/>
-				<div class="row">
-				<cms:container name="Inf+soc" type="center" maxElements="2" detailview="true"/>
-				</div>
-			<cms:container name="recend matches" type="center" maxElements="8" detailview="true"/>
-			<div class="row">
-			<section>
-				<cms:container name="news" type="center" maxElements="2" detailview="true"/>
-			</section>
+			<!-- MainNav -->
+			<div id="header">
+			<cms:include file="%(link.weak:/system/modules/extatus_base/elements/main_nav.jsp:32ec15b5-4581-11e7-88d5-005056a55a2a)"/>
 			</div>
+			<cms:include file="%(link.weak:/system/modules/extatus_base/elements/partners.jsp:19974492-48af-11e7-afef-005056a55a2a)"/>
+			<!-- Main -->
+				<div class="wrapper style1">
+				<cms:container name="content1" type="center" maxElements="8" detailview="true"/>
+				</div>
+
 			<!-- Footer -->
 			<cms:include file="%(link.weak:/system/modules/extatus_base/elements/footer.jsp:2d9f30dd-488f-11e7-bbcb-005056a55a2a)"/>
 		</div>
@@ -42,6 +37,5 @@
 			<script src="<cms:link>%(link.weak:/system/modules/extatus_base/resources/js/skel.min.js:18549168-458d-11e7-88d5-005056a55a2a)</cms:link>"></script>
 			<script src="<cms:link>%(link.weak:/system/modules/extatus_base/resources/js/util.js:18a76c72-458d-11e7-88d5-005056a55a2a)</cms:link>"></script>
 			<script src="<cms:link>%(link.weak:/system/modules/extatus_base/resources/js/main.js:189a25f9-458d-11e7-88d5-005056a55a2a)</cms:link>"></script>
-
 	</body>
 </html>

@@ -19,7 +19,7 @@ pageContext.setAttribute("parsedJSON", data);
 					<div class="reel">
 					<% for (int i=0; i<data.length();i++){%>
 						<article>
-							<a href="#" class="image featured"><img src="<%=data.getJSONObject(i).getString("picture")%>" alt="" /></a>
+							<!--<a href="#" class="image featured"><img src="<%=data.getJSONObject(i).getString("picture")%>" alt="" /></a>-->
 							<header>
 								<h3><a href="#">Extatus vs. <%=data.getJSONObject(i).getString("souper")%></a></h3>
 							</header>

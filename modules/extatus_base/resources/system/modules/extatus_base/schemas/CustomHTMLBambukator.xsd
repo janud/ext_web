@@ -14,8 +14,6 @@
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
 			<xsd:element name="Text" type="OpenCmsHtml" />
-			<xsd:element name="Image" type="OpenCmsVfsFile" />
-			<xsd:element name="Link" type="OpenCmsVarLink" minOccurs="0" />
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
 	</xsd:complexType>
@@ -28,11 +26,10 @@
 			</mappings>
 			<defaults>
 				<default element="Title" value="Add a new title here" />
-				<default element="Text" value="Add your text" />
+				<default element="Text" value="Add your code here" />
 			</defaults>
 			<layouts>
 				<layout element="Text" widget="HtmlWidget" configuration="downloadgallery" />
-				<layout element="Image" widget="ImageGalleryWidget" configuration="{useformat:true}" />
 			</layouts>
 			<validationrules/>
 			<relations/>

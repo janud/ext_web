@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>10.5.1</opencms_version>
-		<createdate>Sat, 03 Jun 2017 14:02:29 GMT</createdate>
+		<createdate>Sat, 03 Jun 2017 22:59:19 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>10</export_version>
 	</info>
@@ -256,14 +256,54 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/extatus_base/elements/footer.jsp</source>
+			<destination>system/modules/extatus_base/elements/footer.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>2d9f30dd-488f-11e7-bbcb-005056a55a2a</uuidstructure>
+			<uuidresource>2d9f30de-488f-11e7-bbcb-005056a55a2a</uuidresource>
+			<datelastmodified>Sat, 03 Jun 2017 19:32:14 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Sat, 03 Jun 2017 19:02:24 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/extatus_base/elements/main_nav.jsp</source>
 			<destination>system/modules/extatus_base/elements/main_nav.jsp</destination>
 			<type>jsp</type>
 			<uuidstructure>32ec15b5-4581-11e7-88d5-005056a55a2a</uuidstructure>
 			<uuidresource>32ec15b6-4581-11e7-88d5-005056a55a2a</uuidresource>
-			<datelastmodified>Sat, 03 Jun 2017 11:05:53 GMT</datelastmodified>
+			<datelastmodified>Sat, 03 Jun 2017 22:41:27 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 30 May 2017 21:44:46 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property type="shared">
+					<name>export</name>
+					<value><![CDATA[false]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/extatus_base/elements/partners.jsp</source>
+			<destination>system/modules/extatus_base/elements/partners.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>19974492-48af-11e7-afef-005056a55a2a</uuidstructure>
+			<uuidresource>19974493-48af-11e7-afef-005056a55a2a</uuidresource>
+			<datelastmodified>Sat, 03 Jun 2017 22:51:11 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Sat, 03 Jun 2017 22:50:54 GMT</datecreated>
 			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
@@ -378,7 +418,7 @@
 			<type>jsp</type>
 			<uuidstructure>c4adb359-462d-11e7-8373-005056a55a2a</uuidstructure>
 			<uuidresource>c4adb35a-462d-11e7-8373-005056a55a2a</uuidresource>
-			<datelastmodified>Fri, 02 Jun 2017 16:50:45 GMT</datelastmodified>
+			<datelastmodified>Sat, 03 Jun 2017 22:57:36 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 31 May 2017 18:20:04 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -742,7 +782,7 @@
 			<type>jsp</type>
 			<uuidstructure>4dca2c5f-462c-11e7-8373-005056a55a2a</uuidstructure>
 			<uuidresource>4dca2c60-462c-11e7-8373-005056a55a2a</uuidresource>
-			<datelastmodified>Sat, 03 Jun 2017 12:06:24 GMT</datelastmodified>
+			<datelastmodified>Sat, 03 Jun 2017 19:27:08 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 31 May 2017 18:09:35 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -794,7 +834,7 @@
 			<type>jsp</type>
 			<uuidstructure>9446442d-4709-11e7-a7eb-005056a55a2a</uuidstructure>
 			<uuidresource>9446442e-4709-11e7-a7eb-005056a55a2a</uuidresource>
-			<datelastmodified>Sat, 03 Jun 2017 13:54:30 GMT</datelastmodified>
+			<datelastmodified>Sat, 03 Jun 2017 20:32:50 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Thu, 01 Jun 2017 20:33:32 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -846,7 +886,7 @@
 			<type>jsp</type>
 			<uuidstructure>71373c35-462c-11e7-8373-005056a55a2a</uuidstructure>
 			<uuidresource>71373c36-462c-11e7-8373-005056a55a2a</uuidresource>
-			<datelastmodified>Thu, 01 Jun 2017 20:30:22 GMT</datelastmodified>
+			<datelastmodified>Sat, 03 Jun 2017 21:04:36 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 31 May 2017 18:10:35 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -977,7 +1017,7 @@
 			<type>plain</type>
 			<uuidstructure>18de8220-458d-11e7-88d5-005056a55a2a</uuidstructure>
 			<uuidresource>18de8221-458d-11e7-88d5-005056a55a2a</uuidresource>
-			<datelastmodified>Tue, 30 May 2017 23:09:56 GMT</datelastmodified>
+			<datelastmodified>Sat, 03 Jun 2017 20:52:19 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 30 May 2017 23:09:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -997,7 +1037,7 @@
 			<type>plain</type>
 			<uuidstructure>18d9c72d-458d-11e7-88d5-005056a55a2a</uuidstructure>
 			<uuidresource>18d9c72e-458d-11e7-88d5-005056a55a2a</uuidresource>
-			<datelastmodified>Sat, 03 Jun 2017 13:49:35 GMT</datelastmodified>
+			<datelastmodified>Sat, 03 Jun 2017 22:36:11 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 30 May 2017 23:09:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -1235,8 +1275,56 @@
 			<accesscontrol/>
 		</file>
 		<file>
+			<source>system/modules/extatus_base/resources/images/Header.jpg</source>
+			<destination>system/modules/extatus_base/resources/images/Header.jpg</destination>
+			<type>image</type>
+			<uuidstructure>b757245f-48a3-11e7-bbcb-005056a55a2a</uuidstructure>
+			<uuidresource>b7572460-48a3-11e7-bbcb-005056a55a2a</uuidresource>
+			<datelastmodified>Sat, 03 Jun 2017 21:32:18 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Sat, 03 Jun 2017 21:29:25 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[Header2]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1996,h:1144]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
 			<source>system/modules/extatus_base/resources/images/header.jpg</source>
 			<destination>system/modules/extatus_base/resources/images/header.jpg</destination>
+			<type>image</type>
+			<uuidstructure>2cec7021-489c-11e7-bbcb-005056a55a2a</uuidstructure>
+			<uuidresource>2cec7022-489c-11e7-bbcb-005056a55a2a</uuidresource>
+			<datelastmodified>Sat, 03 Jun 2017 20:35:33 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Sat, 03 Jun 2017 20:35:26 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[header]]></value>
+				</property>
+				<property type="shared">
+					<name>image.size</name>
+					<value><![CDATA[w:1994,h:735]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/extatus_base/resources/images/Header.jpg_old</source>
+			<destination>system/modules/extatus_base/resources/images/Header.jpg_old</destination>
 			<type>image</type>
 			<uuidstructure>204f3fb1-4844-11e7-99d0-005056a55a2a</uuidstructure>
 			<uuidresource>204f3fb2-4844-11e7-99d0-005056a55a2a</uuidresource>
@@ -2217,7 +2305,7 @@
 			<type>plain</type>
 			<uuidstructure>c462eeae-462d-11e7-8373-005056a55a2a</uuidstructure>
 			<uuidresource>c462eeaf-462d-11e7-8373-005056a55a2a</uuidresource>
-			<datelastmodified>Tue, 30 May 2017 21:34:50 GMT</datelastmodified>
+			<datelastmodified>Sat, 03 Jun 2017 22:58:39 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Wed, 31 May 2017 18:20:04 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2470,7 +2558,7 @@
 			<type>jsp</type>
 			<uuidstructure>18ea41fb-458d-11e7-88d5-005056a55a2a</uuidstructure>
 			<uuidresource>18ea41fc-458d-11e7-88d5-005056a55a2a</uuidresource>
-			<datelastmodified>Sat, 03 Jun 2017 12:28:45 GMT</datelastmodified>
+			<datelastmodified>Sat, 03 Jun 2017 22:51:48 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 30 May 2017 23:09:56 GMT</datecreated>
 			<usercreated>Admin</usercreated>
@@ -2499,6 +2587,26 @@
 				<property>
 					<name>Title</name>
 					<value><![CDATA[no-sidebar]]></value>
+				</property>
+			</properties>
+			<relations/>
+			<accesscontrol/>
+		</file>
+		<file>
+			<source>system/modules/extatus_base/templates/plain.jsp</source>
+			<destination>system/modules/extatus_base/templates/plain.jsp</destination>
+			<type>jsp</type>
+			<uuidstructure>bc789726-48a6-11e7-bbcb-005056a55a2a</uuidstructure>
+			<uuidresource>bc789727-48a6-11e7-bbcb-005056a55a2a</uuidresource>
+			<datelastmodified>Sat, 03 Jun 2017 22:56:48 GMT</datelastmodified>
+			<userlastmodified>Admin</userlastmodified>
+			<datecreated>Sat, 03 Jun 2017 21:51:02 GMT</datecreated>
+			<usercreated>Admin</usercreated>
+			<flags>0</flags>
+			<properties>
+				<property>
+					<name>Title</name>
+					<value><![CDATA[plain template]]></value>
 				</property>
 			</properties>
 			<relations/>
