@@ -67,13 +67,11 @@
 
 	.partnersM{
     background-color: #333;
+    border: 1px solid #a3a3a3;
+    border-radius: 1em;
 	text-align: center;
 	padding: 1em 1em 1em 1em;
 }
-	.equip{
-	margin: 0.5em 0em 0.5em 0em;
-	padding: 1em 1em 1em 1em;
-	}
 	.container {
 		margin-left: auto;
 		margin-right: auto;
@@ -1718,13 +1716,8 @@
 	}
 
 /* Sections/Article */
-	.news{
+	.bcw{
 	background-color: white;
-	height: 20em;
-	color: black;
-	}
-	.newsI{
-	height: 12em
 	}
 	section, article {
 		margin-bottom: 3em;
@@ -2035,7 +2028,7 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #8dbe16;
+		background: #df7366;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2057,7 +2050,7 @@
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #b5ff00;
+			background: #ef8376;
 		}
 
 		input[type="button"].alt,
@@ -2265,9 +2258,6 @@
 		font-family: 'Bebas Neue';
 		font-size: 1.35em;
 	}
-	.navicon{
-	    padding: 0em 1em 0em 1em;
-	}
 
 		#nav > ul {
 			line-height: 0px;
@@ -2275,7 +2265,6 @@
 			display: inline-block;
 			margin: 0;
 			height: 21px;
-			margin-left: 0em;
 		}
 
 			/*#nav > ul:before, #nav > ul:after {
@@ -2327,7 +2316,7 @@
 					display: none;
 				}
 				#nav > ul > li.break {
-					margin-left: 5em;
+					margin-left: 15em;
 				}
 
 	.dropotron {

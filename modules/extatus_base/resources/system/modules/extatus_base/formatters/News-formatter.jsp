@@ -5,12 +5,12 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <cms:formatter var="content">
 <div class="${content.value.Sirka} 12u(mobile)">
-<article class="special bcw">
-	<a href="${content.value.Link}" class="image featured"><img src="opencms/${content.value.Image}" alt="" /></a>
+<article class="special news">
+	<a href="${content.value.Link}" class="image featured"><img class="newsI" src="/opencms${content.value.Image}" alt="" /></a>
 		<header>
 			<h2><a href="${content.value.Link}">${content.value.Title}</a></h2>
-			<p>${content.value.Text}</p>
 		</header>
+		<a href="${content.value.Link}" style="font-size: 1em; padding-left:1em;">Číst dále</a>
 </article>
 </div>
 </cms:formatter>

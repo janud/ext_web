@@ -13,6 +13,7 @@
 	<xsd:complexType name="OpenCmsSampleType">
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="sirka" type="OpenCmsString" />
 			<xsd:element name="Text" type="OpenCmsHtml" />
 			<xsd:element name="Image" type="OpenCmsVfsFile" />
 			<xsd:element name="Link" type="OpenCmsVarLink" minOccurs="0" />
@@ -29,6 +30,7 @@
 			<defaults>
 				<default element="Title" value="Add a new title here" />
 				<default element="Text" value="Add your text" />
+				<default element="sirka" value="Add a new title here" />
 			</defaults>
 			<layouts>
 				<layout element="Text" widget="HtmlWidget" configuration="downloadgallery" />

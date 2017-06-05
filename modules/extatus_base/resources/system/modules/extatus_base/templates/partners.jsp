@@ -22,16 +22,7 @@
 			<cms:include file="%(link.weak:/system/modules/extatus_base/elements/partners.jsp:19974492-48af-11e7-afef-005056a55a2a)"/>
 			<!-- Main -->
 				<div class="wrapper style1">
-				<cms:container name="content1" type="center" maxElements="8" detailview="true" />
-				<div class="row" style="margin: 0 2em 0 2em;">
-				<div class="6u 12u(mobile)">
-				<cms:container name="content2" type="center" maxElements="8" detailview="true"/>
-				</div>
-				<div class="6u 12u(mobile)">
-				<cms:container name="content3" type="center" maxElements="8" detailview="true"/>
-				</div>
-				</div>
-				<cms:container name="content4" type="center" maxElements="8" detailview="true"/>
+				<cms:container name="content1" type="center" maxElements="8" detailview="true" tagClass="row" />
 				</div>
 
 			<!-- Footer -->

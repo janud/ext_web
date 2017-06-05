@@ -18,18 +18,13 @@
 			<!-- Header -->
 				<div id="header" class="titleh">
 					<!-- Nav -->
-					<cms:include file="%(link.weak:/system/modules/extatus_base/elements/main_nav.jsp:32ec15b5-4581-11e7-88d5-005056a55a2a)"/>
+					<cms:include file="%(link.weak:/system/modules/extatus_base/elements/main_nav.jsp:b5564466-496a-11e7-9feb-005056a55a2a)"/>
 				</div>
 				<cms:include file="%(link.weak:/system/modules/extatus_base/elements/partners.jsp:19974492-48af-11e7-afef-005056a55a2a)"/>
-				<div class="row">
-				<cms:container name="Inf+soc" type="center" maxElements="2" detailview="true"/>
-				</div>
+				<br />
+				<cms:container name="Inf+soc" type="center" maxElements="2" detailview="true" tagClass="row" />
 			<cms:container name="recend matches" type="center" maxElements="8" detailview="true"/>
-			<div class="row">
-			<section>
-				<cms:container name="news" type="center" maxElements="2" detailview="true"/>
-			</section>
-			</div>
+			<cms:container name="news" type="center" maxElements="8" detailview="true" tagClass="row" />
 			<!-- Footer -->
 			<cms:include file="%(link.weak:/system/modules/extatus_base/elements/footer.jsp:2d9f30dd-488f-11e7-bbcb-005056a55a2a)"/>
 		</div>
