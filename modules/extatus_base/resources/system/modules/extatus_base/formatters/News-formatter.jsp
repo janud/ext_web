@@ -4,7 +4,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <cms:formatter var="content">
-<div class="${content.value.Sirka} 12u(mobile)">
+<div class="${content.value.Sirka} 12u(mobile) newsS">
 <article class="special news">
 	<a href="${content.value.Link}" class="image featured"><img class="newsI" src="/opencms${content.value.Image}" alt="" /></a>
 		<header>

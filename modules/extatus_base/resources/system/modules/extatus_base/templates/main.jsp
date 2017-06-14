@@ -21,10 +21,13 @@
 					<cms:include file="%(link.weak:/system/modules/extatus_base/elements/main_nav.jsp:b5564466-496a-11e7-9feb-005056a55a2a)"/>
 				</div>
 				<cms:include file="%(link.weak:/system/modules/extatus_base/elements/partners.jsp:19974492-48af-11e7-afef-005056a55a2a)"/>
-				<br />
-				<cms:container name="Inf+soc" type="center" maxElements="2" detailview="true" tagClass="row" />
-			<cms:container name="recend matches" type="center" maxElements="8" detailview="true"/>
-			<cms:container name="news" type="center" maxElements="8" detailview="true" tagClass="row" />
+				<div style="padding: 0em 3em 0em 3em;">
+					<br />
+					<cms:container name="Infsoc" type="center" maxElements="2" detailview="true" tagClass="row" />
+					
+					<cms:container name="recend matches" type="center" maxElements="8" detailview="true"/>
+					<cms:container name="news" type="center" maxElements="8" detailview="true" tagClass="row" />
+				</div>
 			<!-- Footer -->
 			<cms:include file="%(link.weak:/system/modules/extatus_base/elements/footer.jsp:2d9f30dd-488f-11e7-bbcb-005056a55a2a)"/>
 		</div>

@@ -89,16 +89,5 @@
 								</section>
 								
 						</div>
-						<hr />
-						<div class="row">
-							<div class="12u">
-								<!-- Copyright -->
-									<div class="copyright">
-										<ul class="menu">
-											<li>&copy; Extatus. All rights reserved.</li><li>Design: JanudCZ</li>
-										</ul>
-									</div>
-							</div>
-						</div>
 					</div>
 				</div>

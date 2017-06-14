@@ -13,6 +13,7 @@
 	<xsd:complexType name="OpenCmsSampleType">
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
+			<xsd:element name="Nadpis" type="OpenCmsString" />
 			<xsd:element name="Text" type="OpenCmsHtml" />
 			<xsd:element name="Sirka" type="OpenCmsString"/>
 		</xsd:sequence>
@@ -27,6 +28,7 @@
 			</mappings>
 			<defaults>
 				<default element="Title" value="Add a new title here" />
+				<default element="Nadpis" value="Add a new title here" />
 				<default element="Text" value="Add your text" />
 				<default element="Sirka" value="Sirka elementu 12u max" />
 			</defaults>

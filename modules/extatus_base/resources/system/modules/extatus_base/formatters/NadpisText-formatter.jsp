@@ -7,7 +7,7 @@
 <div class="${content.value.Sirka} 12u(mobile)">
 	<article class="special">
 		<header>
-			<h2>${content.value.Title}</h2>
+			<h2>${content.value.Nadpis}</h2>
 			<p>
 				${content.value.Text}
 			</p>

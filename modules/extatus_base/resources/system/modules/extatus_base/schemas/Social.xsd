@@ -13,7 +13,6 @@
 	<xsd:complexType name="OpenCmsSampleType">
 		<xsd:sequence>
 			<xsd:element name="Title" type="OpenCmsString" />
-			<xsd:element name="Text" type="OpenCmsHtml" />
 			<xsd:element name="Sirka" type="OpenCmsString"/>
 		</xsd:sequence>
 		<xsd:attribute name="language" type="OpenCmsLocale" use="required"/>
@@ -27,11 +26,9 @@
 			</mappings>
 			<defaults>
 				<default element="Title" value="Add a new title here" />
-				<default element="Text" value="Add your text" />
-				<default element="Sirka" value="Sirka elementu 12u max" />
+				<default element="Sirka" value="12u" />
 			</defaults>
 			<layouts>
-				<layout element="Text" widget="HtmlWidget" configuration="downloadgallery" />
 			</layouts>
 			<validationrules/>
 			<relations/>

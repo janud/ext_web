@@ -7,8 +7,8 @@
 <div class="${content.value.sirka} 12u(mobile) ">
 	<div class="partnersM">
 		<div class="margin-bottom-30">
-			<div class="accordion">
-				<cms:img src="${content.value.Image}" />
+			<div class="accordion PartnersBut">
+				<a name="${content.value.Title}" ><img src="${content.value.Image}" class="PartnersImg"></a>
 				<div>
 					<h3>${content.value.Title}</h3>
 					<p>

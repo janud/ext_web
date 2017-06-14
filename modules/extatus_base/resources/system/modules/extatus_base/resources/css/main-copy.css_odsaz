@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: 'Bebas Neue';
-  src: local('Bebas Neue'), url('/system/modules/extatus_base/resources/fonts/BebasNeue.otf') format('opentype');
+  src: local('Bebas Neue'), url('/system/modules/extatus_base/resources/fonts/klavika-medium-italic.otf') format('opentype');
 }
 @font-face {
   font-family: 'Myriad Pro Regular';
@@ -12,7 +12,7 @@
 /* Reset */
 	.minor
 	{
-	height: 100px;
+	height: 70px;
 	margin-left: 0.5em;
 	margin-right: 0.5em;
 	}
@@ -64,14 +64,24 @@
 	}
 
 /* Containers */
-
+	.row > *.partnersB{
+	padding-bottom: 0px;
+	}
 	.partnersM{
     background-color: #333;
-    border: 1px solid #a3a3a3;
-    border-radius: 1em;
 	text-align: center;
 	padding: 1em 1em 1em 1em;
 }
+	.equip{
+	margin: 0.5em 0em 0.5em 0em;
+	padding: 1em 1em 1em 1em;
+	}
+	#Infsoc{
+	    padding: 1em 4em 2em 4em;
+	}
+	.aboutT{
+	padding: 0 2em 0 2em
+	}
 	.container {
 		margin-left: auto;
 		margin-right: auto;
@@ -277,7 +287,7 @@
 	}
 
 	.row > * {
-		padding: 48px 0 0 48px;
+		padding: 48px 0 0px 0px;
 	}
 
 	.row {
@@ -285,7 +295,7 @@
 	}
 
 	.row.uniform > * {
-		padding: 48px 0 0 48px;
+		padding: 48px 0 0px 0px;
 	}
 
 	.row.uniform {
@@ -490,7 +500,7 @@
 	@media screen and (max-width: 1680px) {
 
 		.row > * {
-			padding: 48px 0 0 48px;
+			padding: 48px 0 0px 0px;
 		}
 
 		.row {
@@ -498,7 +508,7 @@
 		}
 
 		.row.uniform > * {
-			padding: 48px 0 0 48px;
+			padding: 48px 0 0px 0px;
 		}
 
 		.row.uniform {
@@ -952,7 +962,7 @@
 		}
 
 		.row.\31 50\25 > * {
-			padding: 48px 0 0 48px;
+			padding: 48px 0 0px 0px;
 		}
 
 		.row.\31 50\25 {
@@ -960,7 +970,7 @@
 		}
 
 		.row.uniform.\31 50\25 > * {
-			padding: 48px 0 0 48px;
+			padding: 48px 0 0px 0px;
 		}
 
 		.row.uniform.\31 50\25 {
@@ -1167,7 +1177,7 @@
 		}
 
 		.row.\31 50\25 > * {
-			padding: 48px 0 0 48px;
+			padding: 48px 0 0px 0px;
 		}
 
 		.row.\31 50\25 {
@@ -1175,7 +1185,7 @@
 		}
 
 		.row.uniform.\31 50\25 > * {
-			padding: 48px 0 0 48px;
+			padding: 48px 0 0px 0px;
 		}
 
 		.row.uniform.\31 50\25 {
@@ -1565,7 +1575,7 @@
 /* Basic */
 
 	body {
-		background: #333;
+		background: #000;
 		color: #ddd;
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -1595,7 +1605,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #da0f0f;
+		color: #ca0a0a;
 		line-height: 1.25em;
 	}
 	.h4w{
@@ -1629,7 +1639,7 @@
 
 	strong, b {
 		font-weight: 400;
-		color: #da0f0f;
+		color: #ca0a0a;
 	}
 
 	em, i {
@@ -1647,7 +1657,7 @@
 	}
 
 		a:hover {
-			color: #da0f0f;
+			color: #ca0a0a;
 			border-bottom-color: transparent;
 		}
 
@@ -1716,8 +1726,20 @@
 	}
 
 /* Sections/Article */
-	.bcw{
+	#news{
+	padding: 2em 4em 2em 4em;
+	}
+	.newsS{
+	padding-left: 1em;
+	padding-right: 1em;
+	}
+	.news{
 	background-color: white;
+	height: 20em;
+	color: black;
+	}
+	.newsI{
+	height: 12em
 	}
 	section, article {
 		margin-bottom: 3em;
@@ -1791,8 +1813,23 @@
 			}
 
 /* List */
+	.row.TopMenu{
+	margin-left: 0px;
+    padding-left: 0px;
+	}
+	.row.TopMenu > *{
+	margin-left: 0px;
+    padding-left: 0px;
+	}
+	.TopMenuL{
+	/*text-align: right;*/
+	}
+	.TopMenuR{
+	/*text-align: left;*/
+	font-size: 0.6em;
+	}
 	.topmenu:hover{
-	color:#da0f0f;
+	color:#ca0a0a;
 	}
 	#twitter:hover{
 	color:cyan;
@@ -1895,7 +1932,7 @@
 			}
 
 				ul.icons li a:hover {
-					color: #da0f0f;
+					color: #ca0a0a;
 				}
 
 	ol.default {
@@ -2028,7 +2065,7 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #8dbe16;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2050,7 +2087,7 @@
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #ef8376;
+			background: #b5ff00;
 		}
 
 		input[type="button"].alt,
@@ -2144,7 +2181,7 @@
 		cursor: default;
 	}
 	#header .hover{
-	color: #da0f0f;
+	color: #ca0a0a;
 	}
 	.titleh{
 	background-image: url("/opencms/export/system/modules/extatus_base/resources/images/Header.jpg");
@@ -2252,11 +2289,14 @@
 		left: 0;
 		width: 100%;
 		text-align: center;
-		padding: 1.5em 0 1.5em 0;
+		padding: 2em 0 1.5em 0;
 		z-index: 1;
 		overflow: hidden;
 		font-family: 'Bebas Neue';
 		font-size: 1.35em;
+	}
+	.navicon{
+	    padding: 0em 1em 0em 1em;
 	}
 
 		#nav > ul {
@@ -2265,6 +2305,7 @@
 			display: inline-block;
 			margin: 0;
 			height: 21px;
+			margin-left: 0em;
 		}
 
 			/*#nav > ul:before, #nav > ul:after {
@@ -2316,7 +2357,7 @@
 					display: none;
 				}
 				#nav > ul > li.break {
-					margin-left: 15em;
+					margin-left: 5em;
 				}
 
 	.dropotron {
@@ -2438,8 +2479,8 @@
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: black;
-		color: #fff;
+		background: #fff;
+		color: #000;
 	}
 
 		#footer .icon.circled {
@@ -2509,7 +2550,7 @@
 				width: 6em;
 				height: 6em;
 				border-radius: 100%;
-				background-color: #da0f0f;
+				background-color: #777;
 				position: absolute;
 				top: 50%;
 				margin-top: -3em;
@@ -2606,6 +2647,9 @@
 			.carousel article p {
 				text-align: center;
 			}
+		.sliderRMIMG {
+			height: 4em;
+		}
 
 
 
@@ -3037,6 +3081,7 @@
 					border-radius: 0.35em;
 					height: 3em;
 					line-height: 3em;
+					margin-top: -0.5em;
 				}
 
 			#header {

@@ -23,11 +23,12 @@
 			<!-- Main -->
 				<div class="wrapper style1">
 				<cms:container name="content1" type="center" maxElements="8" detailview="true" />
-				<div class="row" style="margin: 0 2em 0 2em;">
-				<div class="6u 12u(mobile)">
-				<cms:container name="content2" type="center" maxElements="8" detailview="true"/>
+				<div class="row" style="margin: 0 4em 0 4em;">
+				<div class="4u 12u(mobile)">
+				<cms:container name="content2" type="center" maxElements="6" detailview="true" tagClass="row antirow"/>
 				</div>
-				<div class="6u 12u(mobile)">
+				<div class="1u 12u(mobile)"></div>
+				<div class="7u 12u(mobile)">
 				<cms:container name="content3" type="center" maxElements="8" detailview="true"/>
 				</div>
 				</div>

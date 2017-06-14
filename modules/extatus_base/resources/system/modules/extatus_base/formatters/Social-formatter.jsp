@@ -4,30 +4,23 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <cms:formatter var="content">
-	<div class="margin-bottom-30">
-		<div class="headline">
-			<h3 ${content.rdfa.Title}>${content.value.Title}</h3>
-		</div>
-		<div class="row">
-			<c:if test="${content.value.Image.exists}">
-				<div class="col-md-4 col-sm-2 hidden-xs">
-					<div class="thumbnail-kenburn">
-						<div class="overflow-hidden">
-							<cms:img src="${content.value.Image}" scaleColor="transparent"
-								width="400" scaleType="0" noDim="true" cssclass="img-responsive" />
-						</div>
-					</div>
-				</div>
-			</c:if>
-			<div class="${content.value.Image.exists ? 'col-md-8 col-sm-10 col-xs-12' : 'col-xs-12' }">
-				<div ${content.rdfa.Text}>${content.value.Text}</div>
-				<c:if test="${content.value.Link.exists}">
-					<p>
-						<a class="btn-u btn-u-small"
-							href="<cms:link>${content.value.Link}</cms:link>">${paragraph.value.Link}</a>
-					</p>
-				</c:if>
-			</div>
-		</div>
-	</div>
+<script src="<cms:link>%(link.weak:/system/modules/extatus_base/resources/js/instafeed.min.js:4a48d43b-4e95-11e7-a04b-005056a55a2a)</cms:link>"></script>
+<script>
+var feed = new Instafeed({
+  clientId: '440a344d9b1b4331affcb2aef92a20e2',
+  userId: '2223035013',
+  accessToken: '2223035013.440a344.e46631122776405f8f44fbbab25515e1',
+  get: 'tagged',
+  tagName: 'extatus',
+  resolution: 'standard_resolution',
+  limit: "10",
+  sortBy: "most-recent",
+  template: '<a href="{{link}}"><img class="instaimg" src="{{image}}" /></a>'
+});
+feed.run();
+</script>
+<div class="6u 12u(mobile)">
+<div id="instafeed"></div>
+</div>
+
 </cms:formatter>
